@@ -79,7 +79,7 @@ void move1(char m[8][8]) {
     }
    
     
-    printArray(m);
+    //printArray(m);
 }
 
 void moveN(char m[8][8], int n) {
@@ -88,8 +88,8 @@ void moveN(char m[8][8], int n) {
         move1(m);
         i++;
     }
-    printf("-------------------------\n");
-    printArray(m);
+    //printf("-------------------------\n");
+    //printArray(m);
 }
 
 void turnLeft() {
@@ -124,7 +124,6 @@ void turnBack() {
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
         d = 1;
         posX = 2;//2
         posY = 3;//3
